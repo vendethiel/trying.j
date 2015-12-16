@@ -16,6 +16,6 @@ NB.     but would need parentheses around its RHS)
 NB. And finally, @.'s RHS is a predicate, that should return the index
 NB. So, if this predicate returns 0, the ] function is used, etc
 
-NB After that, some tests:
+NB. After that, some tests:
 NB. ;: space-splits a string
 NB. &> will dispatch the function once per element
