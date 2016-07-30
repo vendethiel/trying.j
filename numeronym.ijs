@@ -9,7 +9,7 @@ NB. The first part is ]`(...)
 NB. The ` just builds a list with its LHS and its RHS (it's list-associative)
 NB. Its LHS is ], or "passthrough"/"id"
 NB. Its RHS is a function that takes the first el ({.),
-NB.     then the size-2, as a string
+NB.     then the size-2, as a string, then the last el ({:)
 NB. (Use ": to format, [: to compose. Note: @: could be used in its dyadic form to compose,
 NB.     but would need parentheses around its RHS)
 
