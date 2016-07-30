@@ -20,12 +20,7 @@ NB.                &>                                   NB. For each word
 NB.             {.                                      NB. Take the head
 NB.                   &                                 NB. Bind those
 
-NB. join_dot =: }. @: , @: ('.' & ,"0)
-NB.                        ('.' & ,"0)                  NB. Concatenate each element with a dot
-NB.                     @:                              NB. Composed with...
-NB.                   ,                                 NB. Flatten
-NB.                @:                                   NB. Composed with...
-NB.             }.                                      NB. Remove the leading dot
+NB. join_dot =: }. @: , @: ('.' & ,"0)                  NB. see full-width-text
 
 NB. encaps =: { & (alph_high,alph_high)
 NB.           { &                                       NB. Index into
