@@ -9,7 +9,7 @@ acronymize 'hey you Mate'
 
 NB. 'alph_high alph_low'=: u: &> (65 97) + 2 26 $ i. 26
 NB.                                               i. 26 NB. 0..26
-NB.                                        2 26         NB. Duplicate the range
+NB.                                        2 26 $       NB. Duplicate the range
 NB.                              (65 97) +              NB. Add 65 to the first range, 97 to the second
 NB.                        u: &>                        NB. Apply chr to each
 NB. 'alph_high alph_low'=:                              NB. Assign the first range to alph_high, the second to alph_low
