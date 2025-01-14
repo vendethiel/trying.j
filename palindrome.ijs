@@ -2,4 +2,4 @@ palindrome=: -: |.
 palindrome 'hey'
 palindrome 'bob'
 
-NB. Atop of -: (shallow compare) and |. (reverse)
+NB. Atop of -: (match) and |. (reverse)
